@@ -9,4 +9,9 @@ footer{
 	
 
 }
-
+@media screen and (max-width: 400px){
+	footer{
+		height: 30px;
+		width: 400px;
+	}
+}

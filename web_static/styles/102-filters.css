@@ -17,9 +17,6 @@ button{
 	width: 20%;
 	border: none;
 	border-radius: 4px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: absolute;
 	right: 30;
 	
@@ -85,4 +82,62 @@ button:hover{
 .popover ul li{
 	list-style-type: none;
 
+}
+@media screen and (max-width: 400px){
+	.filters{
+		height: 70px;
+		width: 100%;
+	}
+	button{
+		right: 0;
+		margin-right: 5px;
+	}
+	.popover{
+		width: 40%;
+	}
+	.popover h2{
+		font-size: 12px;
+	}
+	.popover li{
+		font-size: 10px;
+	}
+	.locations h4, .amenities h4{
+		font-weight: 300;
+		font-size: 12px;
+		margin: 0;
+		
+	}
+}
+@media screen and (max-width: 590px) and (min-width: 400px) {
+	.popover{
+		width: 45%;
+	}
+	.popover h2{
+		font-size: 12px;
+	}
+	.popover li{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	.filters{
+		height: 70px;
+		width: 100%;
+	}
+	button{
+		font-size: 12px;
+		right: 0;
+		margin-right: 5px;
+		border-radius: 8px;
+	}
+	.popover{
+		width: 50%;
+	}
+	.popover h2{
+		font-size: 12px;
+	}
+	.popover li{
+		font-size: 10px;
+	}
 }
